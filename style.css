@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Display;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.nav {
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.first-nav{
+    display: flex;
+    gap: 7rem;
+}
+.nav-last-bar{
+    display: flex;
+    gap: 2rem;
+}
+.navbar-name{
+    display: flex;
+    gap: 1rem;
+}
+.content{
+    margin-top: 5rem;
+}
+.second-line{
+    font-size: 5rem;
+    line-height: 80px;
+    letter-spacing: -0.2rem;
+    margin-bottom: 6rem;
+}
+.first-line{
+    font-size: 1.2rem;
+    letter-spacing: -0.09rem;
+    margin-bottom: 1.5rem;
+}
+.content-two{
+    display: flex;
+    justify-content: space-between;
+}
+.second-class{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.line{
+    width: 5rem;
+    border: 1px solid black;
+}
+.content-three{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.one img{
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+.one #one{
+    font-size: 1.5rem;
+    color: black;
+}
+.one p{
+    color: gray;
+}
+.second-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
